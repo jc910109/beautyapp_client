@@ -1,0 +1,241 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.ionicframework.beyou" version="1.6.0" versionCode="7" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <feature name="ActionSheet">
+        <param name="android-package" value="nl.xservices.plugins.actionsheet.ActionSheet" />
+    </feature>
+    <feature name="Camera">
+        <param name="android-package" value="org.apache.cordova.camera.CameraLauncher" />
+    </feature>
+    <feature name="Device">
+        <param name="android-package" value="org.apache.cordova.device.Device" />
+    </feature>
+    <feature name="Notification">
+        <param name="android-package" value="org.apache.cordova.dialogs.Notification" />
+    </feature>
+    <feature name="FacebookConnectPlugin">
+        <param name="android-package" value="org.apache.cordova.facebook.ConnectPlugin" />
+        <param name="onload" value="true" />
+    </feature>
+    <access origin="https://m.facebook.com" />
+    <access origin="https://graph.facebook.com" />
+    <access origin="https://api.facebook.com" />
+    <access origin="https://*.fbcdn.net" />
+    <access origin="https://*.akamaihd.net" />
+    <feature name="File">
+        <param name="android-package" value="org.apache.cordova.file.FileUtils" />
+        <param name="onload" value="true" />
+    </feature>
+    <allow-navigation href="cdvfile:*" />
+    <feature name="FileTransfer">
+        <param name="android-package" value="org.apache.cordova.filetransfer.FileTransfer" />
+    </feature>
+    <feature name="Geolocation">
+        <param name="android-package" value="org.apache.cordova.geolocation.Geolocation" />
+    </feature>
+    <feature name="CordovaGoogleMaps">
+        <param name="android-package" value="plugin.google.maps.CordovaGoogleMaps" />
+        <param name="onload" value="true" />
+        <param name="onreset" value="true" />
+    </feature>
+    <feature name="PluginMap">
+        <param name="android-package" value="plugin.google.maps.PluginMap" />
+    </feature>
+    <feature name="PluginPolyline">
+        <param name="android-package" value="plugin.google.maps.PluginPolyline" />
+    </feature>
+    <feature name="PluginPolygon">
+        <param name="android-package" value="plugin.google.maps.PluginPolygon" />
+    </feature>
+    <feature name="PluginMarker">
+        <param name="android-package" value="plugin.google.maps.PluginMarker" />
+    </feature>
+    <feature name="PluginCircle">
+        <param name="android-package" value="plugin.google.maps.PluginCircle" />
+    </feature>
+    <feature name="PluginTileOverlay">
+        <param name="android-package" value="plugin.google.maps.PluginTileOverlay" />
+    </feature>
+    <feature name="PluginGroundOverlay">
+        <param name="android-package" value="plugin.google.maps.PluginGroundOverlay" />
+    </feature>
+    <feature name="PluginKmlOverlay">
+        <param name="android-package" value="plugin.google.maps.PluginKmlOverlay" />
+    </feature>
+    <feature name="PluginGeocoder">
+        <param name="android-package" value="plugin.google.maps.PluginGeocoder" />
+    </feature>
+    <feature name="PluginLocationService">
+        <param name="android-package" value="plugin.google.maps.PluginLocationService" />
+    </feature>
+    <feature name="PluginEnvironment">
+        <param name="android-package" value="plugin.google.maps.PluginEnvironment" />
+    </feature>
+    <feature name="PluginMarkerCluster">
+        <param name="android-package" value="plugin.google.maps.PluginMarkerCluster" />
+    </feature>
+    <feature name="PluginStreetViewPanorama">
+        <param name="android-package" value="plugin.google.maps.PluginStreetViewPanorama" />
+    </feature>
+    <feature name="InAppBrowser">
+        <param name="android-package" value="org.apache.cordova.inappbrowser.InAppBrowser" />
+    </feature>
+    <feature name="NativeAudio">
+        <param name="android-package" value="com.rjfun.cordova.plugin.nativeaudio.NativeAudio" />
+    </feature>
+    <feature name="NetworkStatus">
+        <param name="android-package" value="org.apache.cordova.networkinformation.NetworkManager" />
+    </feature>
+    <feature name="SplashScreen">
+        <param name="android-package" value="org.apache.cordova.splashscreen.SplashScreen" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="StatusBar">
+        <param name="android-package" value="org.apache.cordova.statusbar.StatusBar" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="Whitelist">
+        <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="SocialSharing">
+        <param name="android-package" value="nl.xservices.plugins.SocialSharing" />
+    </feature>
+    <feature name="CallNumber">
+        <param name="android-package" value="mx.ferreyra.callnumber.CFCallNumber" />
+    </feature>
+    <feature name="PushNotification">
+        <param name="android-package" value="com.adobe.phonegap.push.PushPlugin" />
+    </feature>
+    <feature name="LaunchNavigator">
+        <param name="android-package" value="uk.co.workingedge.phonegap.plugin.LaunchNavigatorPlugin" />
+    </feature>
+    <feature name="Keyboard">
+        <param name="android-package" onload="true" value="io.ionic.keyboard.IonicKeyboard" />
+    </feature>
+    <allow-navigation href="http://localhost/*" />
+    <allow-navigation href="https://localhost/*" />
+    <allow-navigation href="ionic://*" />
+    <feature name="IonicWebView">
+        <param name="android-package" value="com.ionicframework.cordova.webview.IonicWebView" />
+    </feature>
+    <feature name="RequestLocationAccuracy">
+        <param name="android-package" value="cordova.plugin.RequestLocationAccuracy" />
+    </feature>
+    <feature name="Diagnostic">
+        <param name="android-package" value="cordova.plugins.Diagnostic" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="Diagnostic_Location">
+        <param name="android-package" value="cordova.plugins.Diagnostic_Location" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="Diagnostic_Bluetooth">
+        <param name="android-package" value="cordova.plugins.Diagnostic_Bluetooth" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="Diagnostic_Wifi">
+        <param name="android-package" value="cordova.plugins.Diagnostic_Wifi" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="Diagnostic_Camera">
+        <param name="android-package" value="cordova.plugins.Diagnostic_Camera" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="Diagnostic_Notifications">
+        <param name="android-package" value="cordova.plugins.Diagnostic_Notifications" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="Diagnostic_NFC">
+        <param name="android-package" value="cordova.plugins.Diagnostic_NFC" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="Diagnostic_External_Storage">
+        <param name="android-package" value="cordova.plugins.Diagnostic_External_Storage" />
+        <param name="onload" value="true" />
+    </feature>
+    <access origin="https://ssl.gstatic.com/accessibility/javascript/android/*" />
+    <feature name="MobileAccessibility">
+        <param name="android-package" value="com.phonegap.plugin.mobileaccessibility.MobileAccessibility" />
+    </feature>
+    <name>Yourbeauty</name>
+    <description>
+        Yourbeauty
+    </description>
+    <author email="easyappsinfo@gmail.com" href="http://example.com.com/">
+      Yourbeauty
+    </author>
+    <content src="index.html" />
+    <edit-config file="*-Info.plist" mode="merge" target="UIStatusBarHidden">
+        <true />
+    </edit-config>
+    <edit-config file="*-Info.plist" mode="merge" target="UIViewControllerBasedStatusBarAppearance">
+        <false />
+    </edit-config>
+    <edit-config file="*-Info.plist" mode="merge" target="UILaunchStoryboardName">
+        <string>CDVLaunchScreen</string>
+    </edit-config>
+    <edit-config file="*-Info.plist" mode="overwrite" target="NSCameraUsageDescription">
+        <string>Para cargar imagenes de perfil</string>
+    </edit-config>
+    <edit-config file="*-Info.plist" mode="overwrite" target="NSPhotoLibraryUsageDescription">
+        <string>Para cargar imagenes de perfil</string>
+    </edit-config>
+    <edit-config file="*-Info.plist" mode="merge" target="NSLocationWhenInUseUsageDescription">
+        <string>Necesitamos acceder a tu ubicacion para encontrar los centros de belleza cercanos</string>
+    </edit-config>
+    <access origin="*" />
+    <allow-intent href="*" />
+    <allow-navigation href="*" />
+    <icon src="www/icon.png" />
+    <icon platform="android" qualifier="ldpi" src="www/assets/icon/android/36x36.png" />
+    <icon platform="android" qualifier="mdpi" src="www/assets/icon/android/48x48.png" />
+    <icon platform="android" qualifier="hdpi" src="www/assets/icon/android/72x72.png" />
+    <icon platform="android" qualifier="xhdpi" src="www/assets/icon/android/96x96.png" />
+    <icon platform="android" qualifier="xxhdpi" src="www/assets/icon/android/144x144.png" />
+    <icon platform="android" qualifier="fr-xxhdpi" src="www/assets/icon/android/192x192.png" />
+    <icon height="40" platform="ios" src="www/assets/icon/ios/40.png" width="40" />
+    <icon height="80" platform="ios" src="www/assets/icon/ios/80.png" width="80" />
+    <icon height="48" platform="ios" src="www/assets/icon/ios/48.png" width="48" />
+    <icon height="76" platform="ios" src="www/assets/icon/ios/76.png" width="76" />
+    <icon height="152" platform="ios" src="www/assets/icon/ios/152.png" width="152" />
+    <icon height="29" platform="ios" src="www/assets/icon/ios/29.png" width="29" />
+    <icon height="58" platform="ios" src="www/assets/icon/ios/58.png" width="58" />
+    <icon height="50" platform="ios" src="www/assets/icon/ios/50.png" width="50" />
+    <icon height="57" platform="ios" src="www/assets/icon/ios/57.png" width="57" />
+    <icon height="72" platform="ios" src="www/assets/icon/ios/72.png" width="72" />
+    <icon height="114" platform="ios" src="www/assets/icon/ios/114.png" width="114" />
+    <icon height="144" platform="ios" src="www/assets/icon/ios/144.png" width="144" />
+    <icon height="100" platform="ios" src="www/assets/icon/ios/100.png" width="100" />
+    <icon height="1024" platform="ios" src="www/assets/icon/ios/1024.png" width="1024" />
+    <icon height="120" platform="ios" src="www/assets/icon/ios/120.png" width="120" />
+    <icon height="167" platform="ios" src="www/assets/icon/ios/167.png" width="167" />
+    <splash src="www/splash.png" />
+    <splash height="480" platform="ios" src="www/assets/splash/320x480.png" width="320" />
+    <splash height="960" platform="ios" src="www/assets/splash/640x960.png" width="640" />
+    <splash height="1136" platform="ios" src="www/assets/splash/640x1136.png" width="640" />
+    <splash height="1334" platform="ios" src="www/assets/splash/750x1334.png" width="750" />
+    <splash height="2208" platform="ios" src="www/assets/splash/1242x2208.png" width="1242" />
+    <splash height="1024" platform="ios" src="www/assets/splash/768x1024.png" width="768" />
+    <splash height="2048" platform="ios" src="www/assets/splash/1536x2048.png" width="1536" />
+    <resource-file src="www/google-services.json" target="app/google-services.json" />
+    <preference name="loglevel" value="DEBUG" />
+    <preference name="android-minSdkVersion" value="19" />
+    <preference name="xwalkZOrderOnTop" value="true" />
+    <preference name="BackgroundColor" value="0" />
+    <preference name="webView" value="com.ionicframework.cordova.webview.IonicWebViewEngine" />
+    <preference name="phonegap-version" value="cli-8.1.1" />
+    <preference name="orientation" value="portrait" />
+    <preference name="webviewbounce" value="false" />
+    <preference name="UIWebViewBounce" value="false" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="AutoHideSplashScreen" value="false" />
+    <preference name="SplashScreen" value="screen" />
+    <preference name="android-targetSdkVersion" value="26" />
+    <preference name="BackupWebStorage" value="none" />
+    <preference name="KeyboardDisplayRequiresUserAction" value="true" />
+    <preference name="android-windowSoftInputMode" value="stateHidden|adjustResize" />
+    <preference name="StatusBarOverlaysWebView" value="false" />
+    <preference name="StatusBarStyle" value="lightcontent" />
+    <preference name="AndroidPersistentFileLocation" value="Compatibility" />
+    <preference name="cordova.plugins.diagnostic.modules" value="LOCATION NOTIFICATIONS" />
+</widget>

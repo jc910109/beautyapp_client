@@ -1,0 +1,110 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-android-support-gradle-release": {
+      "PACKAGE_NAME": "com.ionicframework.beyou"
+    },
+    "cordova-plugin-camera": {
+      "CAMERA_USAGE_DESCRIPTION": " ",
+      "PHOTOLIBRARY_USAGE_DESCRIPTION": " ",
+      "PACKAGE_NAME": "com.ionicframework.beyou"
+    },
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "com.ionicframework.beyou"
+    },
+    "cordova-plugin-facebook4": {
+      "APP_ID": "1983888255255595",
+      "APP_NAME": "Yourbeauty",
+      "FACEBOOK_HYBRID_APP_EVENTS": "false",
+      "FACEBOOK_ANDROID_SDK_VERSION": "4.40.0",
+      "PACKAGE_NAME": "com.ionicframework.beyou"
+    },
+    "cordova-plugin-file-transfer": {
+      "PACKAGE_NAME": "com.ionicframework.beyou"
+    },
+    "cordova-plugin-geolocation": {
+      "PACKAGE_NAME": "com.ionicframework.beyou"
+    },
+    "cordova-plugin-googlemaps": {
+      "API_KEY_FOR_IOS": "AIzaSyDjyHD9s5AzGciXjVHuney4MzKtduyHIPc",
+      "LOCATION_WHEN_IN_USE_DESCRIPTION": "This app wants to get your location while this app runs only.",
+      "LOCATION_ALWAYS_USAGE_DESCRIPTION": "This app wants to get your location always, even this app runs in background.",
+      "PACKAGE_NAME": "com.ionicframework.beyou"
+    },
+    "cordova-plugin-inappbrowser": {
+      "PACKAGE_NAME": "com.ionicframework.beyou"
+    },
+    "cordova-plugin-ionic-keyboard": {
+      "PACKAGE_NAME": "com.ionicframework.beyou"
+    },
+    "cordova-plugin-ionic-webview": {
+      "PACKAGE_NAME": "com.ionicframework.beyou"
+    },
+    "cordova-plugin-nativeaudio": {
+      "PACKAGE_NAME": "com.ionicframework.beyou"
+    },
+    "cordova-plugin-network-information": {
+      "PACKAGE_NAME": "com.ionicframework.beyou"
+    },
+    "cordova-plugin-request-location-accuracy": {
+      "PACKAGE_NAME": "com.ionicframework.beyou"
+    },
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "com.ionicframework.beyou"
+    },
+    "cordova-plugin-statusbar": {
+      "PACKAGE_NAME": "com.ionicframework.beyou"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.ionicframework.beyou"
+    },
+    "cordova-plugin-x-socialsharing": {
+      "PACKAGE_NAME": "com.ionicframework.beyou"
+    },
+    "cordova.plugins.diagnostic": {
+      "PACKAGE_NAME": "com.ionicframework.beyou"
+    },
+    "mx.ferreyra.callnumber": {
+      "PACKAGE_NAME": "com.ionicframework.beyou"
+    },
+    "phonegap-plugin-mobile-accessibility": {
+      "PACKAGE_NAME": "com.ionicframework.beyou"
+    },
+    "phonegap-plugin-push": {
+      "PACKAGE_NAME": "com.ionicframework.beyou"
+    },
+    "uk.co.workingedge.phonegap.plugin.launchnavigator": {
+      "LOCATION_USAGE_DESCRIPTION": "This app requires access to your location for navigation purposes",
+      "PACKAGE_NAME": "com.ionicframework.beyou"
+    }
+  },
+  "dependent_plugins": {
+    "cordova-plugin-actionsheet": {
+      "PACKAGE_NAME": "com.ionicframework.beyou"
+    },
+    "cordova-plugin-compat": {
+      "PACKAGE_NAME": "com.ionicframework.beyou"
+    },
+    "cordova-plugin-dialogs": {
+      "PACKAGE_NAME": "com.ionicframework.beyou"
+    },
+    "cordova-plugin-file": {
+      "PACKAGE_NAME": "com.ionicframework.beyou"
+    },
+    "es6-promise-plugin": {
+      "PACKAGE_NAME": "com.ionicframework.beyou"
+    },
+    "cordova-support-google-services": {
+      "PACKAGE_NAME": "com.ionicframework.beyou"
+    },
+    "phonegap-plugin-multidex": {
+      "PACKAGE_NAME": "com.ionicframework.beyou"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">187646798187-bqb0ueaa5thq0peqb2frjo3ob43n3inu.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://beyou-202711.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">187646798187</string>
+    <string name="google_api_key" translatable="false">AIzaSyABUan-iPJ4vcvFiBXH4ac0q_SD-RkXRWc</string>
+    <string name="google_app_id" translatable="false">1:187646798187:android:4e07c0cffcf962c2</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyABUan-iPJ4vcvFiBXH4ac0q_SD-RkXRWc</string>
+    <string name="google_storage_bucket" translatable="false">beyou-202711.appspot.com</string>
+    <string name="project_id" translatable="false">beyou-202711</string>
+</resources>
